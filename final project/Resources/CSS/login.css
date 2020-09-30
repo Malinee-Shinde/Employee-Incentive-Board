@@ -1,0 +1,106 @@
+/* login page */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  
+  }
+ 
+  /* welcome heading */
+  .heading_welcome{
+   padding-top: 30px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   color: #13066C;
+  }
+ 
+  .login-box {
+    margin: 20px auto;
+    flex-basis: 1000px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+  }
+  
+  .login-box .login-form {
+    flex-basis: 40%;
+    max-width: 50%;
+    padding-left: 70px;
+  }
+  
+  /* login heading */
+  .heading1 {
+    font-weight: bold;
+    color: #47525E;
+    font-size: 23px;
+    margin: 20px auto;
+  }
+  
+  /* e-mail and password heading */
+  .heading2 {
+    color: #47525E;
+    font-size: 15px;
+    margin: 10px auto;
+  }
+  
+  /* e-mail and password form field */
+  .icon {
+    position: absolute;
+    padding: 6px; 
+    color: #47525E; 
+    min-width: 50px; 
+    text-align: center; 
+  }
+  
+  .form-control {
+    height: 27px;
+    width: 330px;
+    border-width: 2px;
+    font-size: 15px;
+    padding-left: 43px;
+  }
+  
+  
+  /* forgot password */
+  .forgot-link {
+    color: #13066C;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+ 
+  .forgot-link:hover {
+    color: #1C4FC4;
+    text-decoration: underline; 
+  }
+  
+  /* submit button */
+  .btn {
+    height: 27px;
+    width: 330px;
+    margin: 40px auto;
+    background-color: #13066C;
+    color: white;
+    font-size: 15px;
+    line-height: 1em;
+    float: none;
+  }
+  
+  .btn:hover {
+    background-color: #1C4FC4;
+    color: white;
+  }
+  
+  
+  /* image */
+  .login-box .login-img{
+    flex-basis: 60%;
+    max-width: 45%;
+  }
+ 
+ 
+ 

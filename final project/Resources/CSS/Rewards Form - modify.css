@@ -1,0 +1,56 @@
+body{
+  
+    background-color:  white;
+}
+
+/* rewards modify page */
+#rModify{
+    margin: 100px 400px;
+    display: flex-box;
+    background-color: white;
+    align-self: center;
+    padding: 2%;
+    border-radius: 2%;
+    width: 35%;
+    height: auto;
+    border: 1px solid grey;
+}
+/* label */
+label {
+    
+    padding-left: 90px;
+    margin: 2px;
+    height: 5px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* input box */
+.input{
+   
+    padding: 3.5%;
+    margin: 2px auto 2px 90px;
+    height: 5px;
+}
+/* confirm button */
+button{
+    width: 150px;
+    height: 30px;
+    margin: 30px 120px 15px 120px;
+    padding: 0.5%;
+    background-color: #13066c;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+    font-weight: bold;
+    text-align: center;
+    float: center;
+}
+/*  heading */
+.modi_heading{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #13066c;
+
+}

@@ -1,0 +1,44 @@
+body{
+    overflow: auto;
+   
+}
+/* add reward form */
+.container{
+    margin: 100px 400px;
+    display: flex-box;
+    background-color: white;
+    align-self: center;
+    padding: 2%;
+    border-radius: 2%;
+    width: 30%;
+    height: auto;
+    border: 1px solid grey;
+}
+/* labels and input boxes */
+label,
+input {
+    align-content: center;
+    padding: 3.5%;
+    margin: 2px;
+    height: 5px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    margin: 12px;
+    padding: 0.5%;
+    background-color: #13066c;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+    font-weight: bold;
+    text-align: center;
+    float: center;
+}
+
+h1{
+    text-align: center;
+    color: #13066c;
+    font-weight:bold;
+} 

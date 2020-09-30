@@ -1,0 +1,89 @@
+body {
+    margin-top: 23px;
+  
+  }
+  
+* {
+    box-sizing: border-box;
+}
+  
+.logo-box {
+    text-align: right;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.login-page {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* login heading */
+.heading1 {
+    font-weight: bold;
+    color: #47525E;
+    font-size: 23px;
+    margin: 10px auto;
+}
+
+/* e-mail and password heading */
+.heading2 {
+    color: #47525E;
+    font-size: 15px;
+    margin: 20px auto 15px auto;
+}
+  
+/* e-mail and password form field */
+ .icon {
+    position: absolute;
+    padding: 6px; 
+    color: #47525E; 
+    min-width: 50px; 
+    text-align: center; 
+}
+
+.form-control {
+    height: 27px;
+    width: 330px;
+    border-width: 2px;
+    font-size: 15px;
+    padding-left: 43px;
+}
+
+/* submit button */
+.btn {
+    height: 27px;
+    width: 330px;
+    margin: 30px auto 15px auto;
+    background-color: #13066C;
+    color: white;
+    font-size: 15px;
+    line-height: 1em;
+}
+  
+.btn:hover {
+    background-color: #1C4FC4;
+    color: white;
+}
+
+/* goback to login page */
+.goback {
+    color: #13066C;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+ 
+  }
+  
+  .goback:hover {
+      color: #1C4FC4;
+      text-decoration: underline; 
+  }

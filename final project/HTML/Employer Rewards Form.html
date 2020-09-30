@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employer Tasks Form</title>
+    <!-- linking CSS file -->
+    <link rel="stylesheet" href="../Resources/CSS/Tasks Form.css" type="text/css">
+    
+   <!-- linking icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   </head>
+
+  <body>
+  <!-- Add reward form -->
+
+    <section id="rPage" class="container">
+      <a href="Employer Rewards.html"><i id="rclose" class="fa fa-times-circle" style="float: right; color: black"></i></a> 
+
+      <div id="formHeading"></div>
+
+      <h1>New Reward</h1>
+
+      <form id="rform">
+        <label for="name">Reward Name</label>
+		    <input id="name" name="name" type="text" required>
+        <br>
+        <br>
+        <label for="points">Points</label>
+       
+        <input type="number" min="1" onkeyup="if(this.value<1)this.value=1"
+                            placeholder="Enter a number" id="points"required/>
+        <br>
+        <br>
+        <label for="category">Category</label>
+        <select id="rewardtype" name="rewardtype" required>
+          <option value="personal">personal</option>
+          <option value="company">company</option>
+        </select>
+        <br>
+        <br>
+        <a href="Employer Rewards.html"><button id="radd" type="add">Confirm</button></a>
+      </form>
+    </section>
+   <!-- firebase links -->
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+<!-- connecting javascript file to HTML -->
+   <script src="../Resources/JavaScript/Rewards Form.js"></script>
+  </body>
+</html>

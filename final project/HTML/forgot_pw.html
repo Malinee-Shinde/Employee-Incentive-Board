@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Linking Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- CSS file connecting to HTML -->
+    <link href="../Resources/CSS/forgot_pw_style.css" type="text/css" rel="stylesheet">
+ 
+    <title>Forgot password</title>
+</head>
+
+<body>
+<!-- logo image -->
+    <div class="logo-box">
+      <a href="login.html"><img src="../Resources/Images/logo2.png" alt="SozenTechLogo" class="logo-img"></a>
+    </div>
+<!-- forgot password form -->
+    <div class="login-page">
+        <div class="login-form">
+            <label class="heading1">Forgot password</label></br>
+            <label class="heading2">E-mail:</label></br>
+            <i class="far fa-envelope icon" style="color:grey"></i>
+            <input type="text" class="form-control" id="txtEmail" placeholder="Enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="email">
+            <button type="submit" class="btn" id="btnsend" onclick="verifySendEmail()">Send a reset email</button></br>
+            <a href="login.html" class="goback" onclick="document.getElementById('txtEmail').value = ''">Go back to login</a>
+        </div>
+    </div>
+    <!-- firebase connecting scripts -->
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+   <!-- linking javascript file to HTML file -->
+   <script src="../Resources/JavaScript/forgot_pw.js" type="text/javascript"></script>
+</body>
+
+</html>
